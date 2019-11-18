@@ -1,0 +1,1766 @@
+fileFormatVersion: 2
+guid: 247a6f038b9a84b448eca6fd4bfec60e
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: ZeroSpriteSheet_0
+    21300002: ZeroSpriteSheet_1
+    21300004: ZeroSpriteSheet_2
+    21300006: ZeroSpriteSheet_3
+    21300008: ZeroSpriteSheet_4
+    21300010: ZeroSpriteSheet_5
+    21300012: ZeroSpriteSheet_6
+    21300014: ZeroSpriteSheet_7
+    21300016: ZeroSpriteSheet_8
+    21300018: ZeroSpriteSheet_9
+    21300020: ZeroSpriteSheet_10
+    21300022: ZeroSpriteSheet_11
+    21300024: ZeroSpriteSheet_12
+    21300026: ZeroSpriteSheet_13
+    21300028: ZeroSpriteSheet_14
+    21300030: ZeroSpriteSheet_15
+    21300032: ZeroSpriteSheet_16
+    21300034: ZeroSpriteSheet_17
+    21300036: ZeroSpriteSheet_18
+    21300038: ZeroSpriteSheet_19
+    21300040: ZeroSpriteSheet_20
+    21300042: ZeroSpriteSheet_21
+    21300044: ZeroSpriteSheet_22
+    21300046: ZeroSpriteSheet_23
+    21300048: ZeroSpriteSheet_24
+    21300050: ZeroSpriteSheet_25
+    21300052: ZeroSpriteSheet_26
+    21300054: ZeroSpriteSheet_27
+    21300056: ZeroSpriteSheet_28
+    21300058: ZeroSpriteSheet_29
+    21300060: ZeroSpriteSheet_30
+    21300062: ZeroSpriteSheet_31
+    21300064: ZeroSpriteSheet_32
+    21300066: ZeroSpriteSheet_33
+    21300068: ZeroSpriteSheet_34
+    21300070: ZeroSpriteSheet_35
+    21300072: ZeroSpriteSheet_36
+    21300074: ZeroSpriteSheet_37
+    21300076: ZeroSpriteSheet_38
+    21300078: ZeroSpriteSheet_39
+    21300080: ZeroSpriteSheet_40
+    21300082: ZeroSpriteSheet_41
+    21300084: ZeroSpriteSheet_42
+    21300086: ZeroSpriteSheet_43
+    21300088: ZeroSpriteSheet_44
+    21300090: ZeroSpriteSheet_45
+    21300092: ZeroSpriteSheet_46
+    21300094: ZeroSpriteSheet_47
+    21300096: ZeroSpriteSheet_48
+    21300098: ZeroSpriteSheet_49
+    21300100: ZeroSpriteSheet_50
+    21300102: ZeroSpriteSheet_51
+    21300104: ZeroSpriteSheet_52
+    21300106: ZeroSpriteSheet_53
+    21300108: ZeroSpriteSheet_54
+    21300110: ZeroSpriteSheet_55
+    21300112: ZeroSpriteSheet_56
+    21300114: ZeroSpriteSheet_57
+    21300116: ZeroSpriteSheet_58
+    21300118: ZeroSpriteSheet_59
+    21300120: ZeroSpriteSheet_60
+    21300122: ZeroSpriteSheet_61
+    21300124: ZeroSpriteSheet_62
+    21300126: ZeroSpriteSheet_63
+    21300128: ZeroSpriteSheet_64
+    21300130: ZeroSpriteSheet_65
+    21300132: ZeroSpriteSheet_66
+    21300134: ZeroSpriteSheet_67
+    21300136: ZeroSpriteSheet_68
+    21300138: ZeroSpriteSheet_69
+    21300140: ZeroSpriteSheet_70
+    21300142: ZeroSpriteSheet_71
+    21300144: ZeroSpriteSheet_72
+    21300146: ZeroSpriteSheet_73
+    21300148: ZeroSpriteSheet_74
+    21300150: ZeroSpriteSheet_75
+    21300152: ZeroSpriteSheet_76
+    21300154: ZeroSpriteSheet_77
+    21300156: ZeroSpriteSheet_78
+    21300158: ZeroSpriteSheet_79
+    21300160: ZeroSpriteSheet_80
+    21300162: ZeroSpriteSheet_81
+    21300164: ZeroSpriteSheet_82
+    21300166: ZeroSpriteSheet_83
+    21300168: ZeroSpriteSheet_84
+    21300170: ZeroSpriteSheet_85
+    21300172: ZeroSpriteSheet_86
+    21300174: ZeroSpriteSheet_87
+    21300176: ZeroSpriteSheet_88
+    21300178: ZeroSpriteSheet_89
+    21300180: ZeroSpriteSheet_90
+    21300182: ZeroSpriteSheet_91
+    21300184: ZeroSpriteSheet_92
+    21300186: ZeroSpriteSheet_93
+    21300188: ZeroSpriteSheet_94
+    21300190: ZeroSpriteSheet_95
+    21300192: ZeroSpriteSheet_96
+    21300194: ZeroSpriteSheet_97
+    21300196: ZeroSpriteSheet_98
+    21300198: ZeroSpriteSheet_99
+    21300200: ZeroSpriteSheet_100
+    21300202: ZeroSpriteSheet_101
+    21300204: ZeroSpriteSheet_102
+    21300206: ZeroSpriteSheet_103
+    21300208: ZeroSpriteSheet_104
+    21300210: ZeroSpriteSheet_105
+    21300212: ZeroSpriteSheet_106
+    21300214: ZeroSpriteSheet_107
+    21300216: ZeroSpriteSheet_108
+    21300218: ZeroSpriteSheet_109
+    21300220: ZeroSpriteSheet_110
+    21300222: ZeroSpriteSheet_111
+  externalObjects: {}
+  serializedVersion: 4
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -1
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 28
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: ZeroSpriteSheet_0
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 909
+        width: 38
+        height: 44
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ZeroSpriteSheet_1
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 909
+        width: 38
+        height: 45
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ZeroSpriteSheet_2
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 909
+        width: 38
+        height: 44
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ZeroSpriteSheet_3
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 910
+        width: 38
+        height: 43
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ZeroSpriteSheet_4
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 909
+        width: 46
+        height: 44
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ZeroSpriteSheet_5
+      rect:
+        serializedVersion: 2
+        x: 253
+        y: 909
+        width: 44
+        height: 44
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ZeroSpriteSheet_6
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 909
+        width: 46
+        height: 44
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ZeroSpriteSheet_7
+      rect:
+        serializedVersion: 2
+        x: 359
+        y: 914
+        width: 31
+        height: 35
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ZeroSpriteSheet_8
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 909
+        width: 42
+        height: 44
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ZeroSpriteSheet_9
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 859
+        width: 40
+        height: 45
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ZeroSpriteSheet_10
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 859
+        width: 42
+        height: 44
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ZeroSpriteSheet_11
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 860
+        width: 41
+        height: 43
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ZeroSpriteSheet_12
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 860
+        width: 42
+        height: 43
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ZeroSpriteSheet_13
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 859
+        width: 41
+        height: 44
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ZeroSpriteSheet_14
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 859
+        width: 41
+        height: 45
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ZeroSpriteSheet_15
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 859
+        width: 47
+        height: 44
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ZeroSpriteSheet_16
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 858
+        width: 47
+        height: 46
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ZeroSpriteSheet_17
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 860
+        width: 46
+        height: 43
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ZeroSpriteSheet_18
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 810
+        width: 42
+        height: 42
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ZeroSpriteSheet_19
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 807
+        width: 47
+        height: 48
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ZeroSpriteSheet_20
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 815
+        width: 58
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ZeroSpriteSheet_21
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 814
+        width: 58
+        height: 35
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ZeroSpriteSheet_22
+      rect:
+        serializedVersion: 2
+        x: 282
+        y: 814
+        width: 66
+        height: 34
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ZeroSpriteSheet_23
+      rect:
+        serializedVersion: 2
+        x: 372
+        y: 813
+        width: 66
+        height: 37
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ZeroSpriteSheet_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 760
+        width: 50
+        height: 42
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ZeroSpriteSheet_25
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 759
+        width: 55
+        height: 44
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ZeroSpriteSheet_26
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 765
+        width: 68
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ZeroSpriteSheet_27
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 764
+        width: 68
+        height: 35
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ZeroSpriteSheet_28
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 764
+        width: 76
+        height: 34
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ZeroSpriteSheet_29
+      rect:
+        serializedVersion: 2
+        x: 367
+        y: 763
+        width: 76
+        height: 37
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ZeroSpriteSheet_30
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 710
+        width: 37
+        height: 43
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ZeroSpriteSheet_31
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 709
+        width: 39
+        height: 44
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ZeroSpriteSheet_32
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 710
+        width: 41
+        height: 43
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ZeroSpriteSheet_33
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 710
+        width: 52
+        height: 43
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ZeroSpriteSheet_34
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 709
+        width: 49
+        height: 44
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ZeroSpriteSheet_35
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 687
+        width: 62
+        height: 68
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ZeroSpriteSheet_36
+      rect:
+        serializedVersion: 2
+        x: 365
+        y: 705
+        width: 80
+        height: 52
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ZeroSpriteSheet_37
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 660
+        width: 80
+        height: 42
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ZeroSpriteSheet_38
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 664
+        width: 80
+        height: 35
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ZeroSpriteSheet_39
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 664
+        width: 76
+        height: 35
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ZeroSpriteSheet_40
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 614
+        width: 70
+        height: 35
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ZeroSpriteSheet_41
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 614
+        width: 54
+        height: 35
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ZeroSpriteSheet_42
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 610
+        width: 45
+        height: 43
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ZeroSpriteSheet_43
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 557
+        width: 36
+        height: 48
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ZeroSpriteSheet_44
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 557
+        width: 32
+        height: 49
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ZeroSpriteSheet_45
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 556
+        width: 34
+        height: 51
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ZeroSpriteSheet_46
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 556
+        width: 45
+        height: 51
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ZeroSpriteSheet_47
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 558
+        width: 44
+        height: 47
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ZeroSpriteSheet_48
+      rect:
+        serializedVersion: 2
+        x: 253
+        y: 535
+        width: 63
+        height: 73
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ZeroSpriteSheet_49
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 541
+        width: 72
+        height: 61
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ZeroSpriteSheet_50
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 494
+        width: 72
+        height: 54
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ZeroSpriteSheet_51
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 499
+        width: 72
+        height: 44
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ZeroSpriteSheet_52
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 444
+        width: 68
+        height: 44
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ZeroSpriteSheet_53
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 444
+        width: 62
+        height: 44
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ZeroSpriteSheet_54
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 444
+        width: 37
+        height: 44
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ZeroSpriteSheet_55
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 442
+        width: 46
+        height: 48
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ZeroSpriteSheet_56
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 389
+        width: 37
+        height: 44
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ZeroSpriteSheet_57
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 390
+        width: 43
+        height: 42
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ZeroSpriteSheet_58
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 391
+        width: 48
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ZeroSpriteSheet_59
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 389
+        width: 39
+        height: 45
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ZeroSpriteSheet_60
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 389
+        width: 48
+        height: 45
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ZeroSpriteSheet_61
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 388
+        width: 53
+        height: 47
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ZeroSpriteSheet_62
+      rect:
+        serializedVersion: 2
+        x: 318
+        y: 392
+        width: 53
+        height: 38
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ZeroSpriteSheet_63
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 326
+        width: 26
+        height: 51
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ZeroSpriteSheet_64
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 326
+        width: 47
+        height: 51
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ZeroSpriteSheet_65
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 326
+        width: 40
+        height: 50
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ZeroSpriteSheet_66
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 325
+        width: 49
+        height: 52
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ZeroSpriteSheet_67
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 327
+        width: 43
+        height: 49
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ZeroSpriteSheet_68
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 326
+        width: 34
+        height: 50
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ZeroSpriteSheet_69
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 322
+        width: 45
+        height: 58
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ZeroSpriteSheet_70
+      rect:
+        serializedVersion: 2
+        x: 358
+        y: 322
+        width: 54
+        height: 59
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ZeroSpriteSheet_71
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 255
+        width: 40
+        height: 52
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ZeroSpriteSheet_72
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 255
+        width: 38
+        height: 52
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ZeroSpriteSheet_73
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 256
+        width: 34
+        height: 51
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ZeroSpriteSheet_74
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 256
+        width: 37
+        height: 51
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ZeroSpriteSheet_75
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 255
+        width: 39
+        height: 52
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ZeroSpriteSheet_76
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 248
+        width: 36
+        height: 66
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ZeroSpriteSheet_77
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 248
+        width: 34
+        height: 67
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ZeroSpriteSheet_78
+      rect:
+        serializedVersion: 2
+        x: 358
+        y: 256
+        width: 34
+        height: 51
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ZeroSpriteSheet_79
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 260
+        width: 38
+        height: 42
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ZeroSpriteSheet_80
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 185
+        width: 49
+        height: 52
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ZeroSpriteSheet_81
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 185
+        width: 44
+        height: 52
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ZeroSpriteSheet_82
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 186
+        width: 43
+        height: 51
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ZeroSpriteSheet_83
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 186
+        width: 40
+        height: 51
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ZeroSpriteSheet_84
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 185
+        width: 44
+        height: 52
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ZeroSpriteSheet_85
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 179
+        width: 45
+        height: 65
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ZeroSpriteSheet_86
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 178
+        width: 43
+        height: 66
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ZeroSpriteSheet_87
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 186
+        width: 45
+        height: 51
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ZeroSpriteSheet_88
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 190
+        width: 45
+        height: 42
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ZeroSpriteSheet_89
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 118
+        width: 36
+        height: 47
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ZeroSpriteSheet_90
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 113
+        width: 29
+        height: 57
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ZeroSpriteSheet_91
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 118
+        width: 27
+        height: 47
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ZeroSpriteSheet_92
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 118
+        width: 27
+        height: 47
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ZeroSpriteSheet_93
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 113
+        width: 26
+        height: 57
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ZeroSpriteSheet_94
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 122
+        width: 27
+        height: 39
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ZeroSpriteSheet_95
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 120
+        width: 34
+        height: 43
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ZeroSpriteSheet_96
+      rect:
+        serializedVersion: 2
+        x: 357
+        y: 113
+        width: 35
+        height: 57
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ZeroSpriteSheet_97
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 57
+        width: 39
+        height: 49
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ZeroSpriteSheet_98
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 57
+        width: 34
+        height: 49
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ZeroSpriteSheet_99
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 57
+        width: 35
+        height: 49
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ZeroSpriteSheet_100
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 57
+        width: 39
+        height: 49
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ZeroSpriteSheet_101
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 56
+        width: 40
+        height: 51
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ZeroSpriteSheet_102
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 56
+        width: 37
+        height: 51
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ZeroSpriteSheet_103
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 56
+        width: 40
+        height: 51
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ZeroSpriteSheet_104
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 4
+        width: 39
+        height: 45
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ZeroSpriteSheet_105
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 0
+        width: 47
+        height: 52
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ZeroSpriteSheet_106
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 3
+        width: 37
+        height: 46
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ZeroSpriteSheet_107
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 9
+        width: 31
+        height: 35
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ZeroSpriteSheet_108
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 5
+        width: 37
+        height: 43
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ZeroSpriteSheet_109
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 3
+        width: 37
+        height: 47
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ZeroSpriteSheet_110
+      rect:
+        serializedVersion: 2
+        x: 313
+        y: 11
+        width: 24
+        height: 30
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ZeroSpriteSheet_111
+      rect:
+        serializedVersion: 2
+        x: 371
+        y: 2
+        width: 8
+        height: 48
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    outline: []
+    physicsShape: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
