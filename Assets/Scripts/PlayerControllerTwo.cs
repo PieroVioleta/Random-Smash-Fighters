@@ -17,31 +17,31 @@ public class PlayerControllerTwo : MonoBehaviour
     public bool sAttack = false;
     public bool lAttack = false;
     public GameObject aim;
-    //public GameObject ins_bullet;
+    public GameObject ins_bullet;
     public float bulletSpeed = 0f;
-    //private Rigidbody2D rb_ins_bullet;
-    //public bool bullet_available = true;
+    private Rigidbody2D rb_ins_bullet;
+    public bool bullet_available = true;
     public int countPower1 = 3;
     public bool health = false;
-   /* public Text HealthPowerText;
-    public Text BulletCounterText;
+    public Text HealthPowerText;
+    /*public Text BulletCounterText;
     public Text life;*/
     public int lifeP;
-    //public int bullet_counter = 20;
+    public int bullet_counter = 20;
     void Start()
     {
         rb2d = GetComponent<Rigidbody2D>();
         anim = GetComponent<Animator>();
-       //rb_ins_bullet = ins_bullet.GetComponent<Rigidbody2D>();
-        /*HealthPowerText.text = "Health Power: 2";
-        BulletCounterText.text = "Bullets Available: 10";
+        rb_ins_bullet = ins_bullet.GetComponent<Rigidbody2D>();
+        HealthPowerText.text = "Health Power: 2";
+        /*BulletCounterText.text = "Bullets Available: 10";
         life.text = "Health: " + lifeP.ToString() + "%";*/
     }
 
-    // Update is called once per frame
     void Update()
     {
-        //ins_bullet.transform.localScale = transform.localScale;
+        Debug.Log(bullet_available);
+        ins_bullet.transform.localScale = transform.localScale;
         anim.SetFloat("Speed_X_abs", Mathf.Abs(rb2d.velocity.x));
         anim.SetFloat("Speed_Y", rb2d.velocity.y);
         anim.SetBool("Grounded", grounded);
@@ -60,17 +60,17 @@ public class PlayerControllerTwo : MonoBehaviour
             sAttack = true;
         }
         lAttack = false;
-        /*if (Input.GetButtonDown("PS4_R2_2") && grounded && bullet_available && bullet_counter > 0)
+        if (Input.GetButtonDown("PS4_R2_2") && grounded && bullet_available && bullet_counter > 0)
         {
             lAttack = true;
             bullet_available = false;
-        }*/
+        }
         health = false;
         if (Input.GetButtonDown("PS4_triangle_2") && countPower1 > 0)
         {
             health = true;
             countPower1--;
-           /* if (countPower1 > 0) HealthPowerText.text = "Health Power: " + (countPower1 - 1).ToString();*/
+            if (countPower1 > 0) HealthPowerText.text = "Health Power: " + (countPower1 - 1).ToString();
         }
         //if (bullet_counter >= 0 && bullet_counter % 2 == 0) BulletCounterText.text = "Bullets Available: " + (bullet_counter / 2).ToString();
         /*life.text = "Health: " + lifeP.ToString() + "%";*/
@@ -103,11 +103,11 @@ public class PlayerControllerTwo : MonoBehaviour
         }
         if (lAttack)
         {
-            //Invoke("CreateBullet", 0.45f);
+            Invoke("CreateBullet", 0.45f);
         }
 
     }
-    /*void CreateBullet()
+    void CreateBullet()
     {
         if (bullet_available)
         {
@@ -117,5 +117,5 @@ public class PlayerControllerTwo : MonoBehaviour
             rb_ins_bullet.AddForce(Vector2.right * bulletSpeed * direction, ForceMode2D.Impulse);
             lAttack = false;
         }
-    }*/
+    }
 }

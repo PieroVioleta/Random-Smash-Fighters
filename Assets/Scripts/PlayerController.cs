@@ -94,7 +94,6 @@ public class PlayerController : MonoBehaviour {
         {   
             Invoke("CreateBullet", 0.45f);
         }
-        Debug.Log(h);
     }
     void CreateBullet() {
         if (bullet_available) {

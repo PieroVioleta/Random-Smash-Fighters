@@ -52,6 +52,7 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\Scripts\CheckBullet.cs" />
+     <Compile Include="Assets\Scripts\CheckBullet2.cs" />
      <Compile Include="Assets\Scripts\CheckGround.cs" />
      <Compile Include="Assets\Scripts\CheckGroundTwo.cs" />
      <Compile Include="Assets\Scripts\PlayerController.cs" />
