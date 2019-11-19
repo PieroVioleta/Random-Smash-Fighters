@@ -29,6 +29,7 @@ public class PlayerController : MonoBehaviour {
     public int bullet_counter = 20;
     public GameObject sword;
     public bool sword_flag = true;
+    public Text winText;
     void Start() {
         rb2d = GetComponent<Rigidbody2D>();
         anim = GetComponent<Animator>();
@@ -41,6 +42,11 @@ public class PlayerController : MonoBehaviour {
 
     // Update is called once per frame
     void Update() {
+        if (lifeP <= 0)
+        {
+            winText.text = "Player 2 Wins";
+            Time.timeScale = 0;
+        }
         ins_bullet.transform.localScale = transform.localScale;
         anim.SetFloat("Speed_X_abs", Mathf.Abs(rb2d.velocity.x));
         anim.SetFloat("Speed_Y", rb2d.velocity.y);

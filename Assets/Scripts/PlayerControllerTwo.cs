@@ -30,6 +30,7 @@ public class PlayerControllerTwo : MonoBehaviour
     public int bullet_counter = 20;
     public GameObject sword;
     public bool sword_flag = true;
+    public Text winText;
     void Start()
     {
         rb2d = GetComponent<Rigidbody2D>();
@@ -43,6 +44,10 @@ public class PlayerControllerTwo : MonoBehaviour
 
     void Update()
     {
+        if (lifeP <= 0) {
+            winText.text = "Player 1 Wins";
+            Time.timeScale = 0;
+        }
         ins_bullet.transform.localScale = transform.localScale;
         anim.SetFloat("Speed_X_abs", Mathf.Abs(rb2d.velocity.x));
         anim.SetFloat("Speed_Y", rb2d.velocity.y);
