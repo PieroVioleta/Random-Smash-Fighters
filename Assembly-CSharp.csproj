@@ -55,6 +55,8 @@
      <Compile Include="Assets\Scripts\CheckBullet2.cs" />
      <Compile Include="Assets\Scripts\CheckGround.cs" />
      <Compile Include="Assets\Scripts\CheckGroundTwo.cs" />
+     <Compile Include="Assets\Scripts\CheckSwordDamage.cs" />
+     <Compile Include="Assets\Scripts\CheckSwordDamage2.cs" />
      <Compile Include="Assets\Scripts\PlayerController.cs" />
      <Compile Include="Assets\Scripts\PlayerControllerTwo.cs" />
  <Reference Include="UnityEngine.CoreModule">

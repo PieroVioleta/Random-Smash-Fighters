@@ -127,11 +127,11 @@ Prefab:
     m_Modifications:
     - target: {fileID: 4840998043559398, guid: 8502d81897a998941aac45522989564f, type: 2}
       propertyPath: m_LocalPosition.x
-      value: -6.137
+      value: -6.16
       objectReference: {fileID: 0}
     - target: {fileID: 4840998043559398, guid: 8502d81897a998941aac45522989564f, type: 2}
       propertyPath: m_LocalPosition.y
-      value: -2.977
+      value: 1.58
       objectReference: {fileID: 0}
     - target: {fileID: 4840998043559398, guid: 8502d81897a998941aac45522989564f, type: 2}
       propertyPath: m_LocalPosition.z
@@ -215,6 +215,11 @@ Prefab:
       propertyPath: bulletSpeed
       value: 10
       objectReference: {fileID: 0}
+    - target: {fileID: 114880875503498466, guid: 8502d81897a998941aac45522989564f,
+        type: 2}
+      propertyPath: sword
+      value: 
+      objectReference: {fileID: 214630205}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 8502d81897a998941aac45522989564f, type: 2}
   m_IsPrefabParent: 0
@@ -235,6 +240,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   player: {fileID: 1213367236}
+  player_damaged: {fileID: 1052652359}
 --- !u!1 &83109806
 GameObject:
   m_ObjectHideFlags: 0
@@ -479,6 +485,8 @@ RectTransform:
   - {fileID: 452688696}
   - {fileID: 468982027}
   - {fileID: 163199466}
+  - {fileID: 364263274}
+  - {fileID: 1254602464}
   m_Father: {fileID: 0}
   m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -570,11 +578,11 @@ Prefab:
     m_Modifications:
     - target: {fileID: 4840998043559398, guid: 8502d81897a998941aac45522989564f, type: 2}
       propertyPath: m_LocalPosition.x
-      value: -2.44
+      value: 6.79
       objectReference: {fileID: 0}
     - target: {fileID: 4840998043559398, guid: 8502d81897a998941aac45522989564f, type: 2}
       propertyPath: m_LocalPosition.y
-      value: -2.977
+      value: 1.82
       objectReference: {fileID: 0}
     - target: {fileID: 4840998043559398, guid: 8502d81897a998941aac45522989564f, type: 2}
       propertyPath: m_LocalPosition.z
@@ -663,6 +671,10 @@ Prefab:
       propertyPath: m_Enabled
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 4840998043559398, guid: 8502d81897a998941aac45522989564f, type: 2}
+      propertyPath: m_LocalScale.x
+      value: -1
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 114645087581209866, guid: 8502d81897a998941aac45522989564f, type: 2}
     - {fileID: 114880875503498466, guid: 8502d81897a998941aac45522989564f, type: 2}
@@ -681,6 +693,8 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 214630206}
+  - component: {fileID: 214630208}
+  - component: {fileID: 214630207}
   m_Layer: 0
   m_Name: Sword
   m_TagString: Untagged
@@ -695,12 +709,39 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 214630205}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.83, y: 0.66, z: 0}
+  m_LocalPosition: {x: 0.97, y: 0.83, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 933257839}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &214630207
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 214630205}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0e8d7692d44542943999e26b490232a4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player_damaged: {fileID: 1052652359}
+--- !u!58 &214630208
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 214630205}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
+  m_Radius: 0.3
 --- !u!1001 &234574910
 Prefab:
   m_ObjectHideFlags: 0
@@ -799,6 +840,80 @@ Transform:
   m_PrefabParentObject: {fileID: 4974069519513542, guid: 2577c4d10bc78384eb93bc8a3c9ee168,
     type: 2}
   m_PrefabInternal: {fileID: 849810939}
+--- !u!1 &364263273
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 364263274}
+  - component: {fileID: 364263276}
+  - component: {fileID: 364263275}
+  m_Layer: 5
+  m_Name: BulletCounterText2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &364263274
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 364263273}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 104322054}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 1, y: 1}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: -30.600006, y: -42.335007}
+  m_SizeDelta: {x: 187.9, y: 26.68}
+  m_Pivot: {x: 1, y: 1}
+--- !u!114 &364263275
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 364263273}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 708705254, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  m_FontData:
+    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_FontSize: 20
+    m_FontStyle: 0
+    m_BestFit: 0
+    m_MinSize: 2
+    m_MaxSize: 40
+    m_Alignment: 0
+    m_AlignByGeometry: 0
+    m_RichText: 1
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 0
+    m_LineSpacing: 1
+  m_Text: 'Bullets Available: 10'
+--- !u!222 &364263276
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 364263273}
 --- !u!1001 &394471162
 Prefab:
   m_ObjectHideFlags: 0
@@ -1322,6 +1437,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   player: {fileID: 1052652359}
+  player_damaged: {fileID: 1213367236}
 --- !u!1001 &849810939
 Prefab:
   m_ObjectHideFlags: 0
@@ -1613,8 +1729,12 @@ MonoBehaviour:
   countPower1: 3
   health: 0
   HealthPowerText: {fileID: 163199467}
-  lifeP: 0
+  BulletCounterText: {fileID: 364263275}
+  life: {fileID: 1254602465}
+  lifeP: 100
   bullet_counter: 20
+  sword: {fileID: 1978297182}
+  sword_flag: 1
 --- !u!1001 &1062306723
 Prefab:
   m_ObjectHideFlags: 0
@@ -1790,6 +1910,80 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 0ca95643775537444b2fb65e5fbb92b0, type: 2}
   m_IsPrefabParent: 0
+--- !u!1 &1254602463
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1254602464}
+  - component: {fileID: 1254602466}
+  - component: {fileID: 1254602465}
+  m_Layer: 5
+  m_Name: LifeText2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1254602464
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1254602463}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 104322054}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 1, y: 1}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: -30.6, y: -78.3}
+  m_SizeDelta: {x: 120.5, y: 30}
+  m_Pivot: {x: 1, y: 1}
+--- !u!114 &1254602465
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1254602463}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 708705254, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  m_FontData:
+    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_FontSize: 20
+    m_FontStyle: 0
+    m_BestFit: 0
+    m_MinSize: 0
+    m_MaxSize: 40
+    m_Alignment: 0
+    m_AlignByGeometry: 0
+    m_RichText: 1
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 0
+    m_LineSpacing: 1
+  m_Text: 'Health: 100%'
+--- !u!222 &1254602466
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1254602463}
 --- !u!1 &1299090043
 GameObject:
   m_ObjectHideFlags: 0
@@ -2490,6 +2684,8 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 1978297183}
+  - component: {fileID: 1978297185}
+  - component: {fileID: 1978297184}
   m_Layer: 0
   m_Name: Sword
   m_TagString: Untagged
@@ -2504,12 +2700,39 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1978297182}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.83, y: 0.66, z: 0}
+  m_LocalPosition: {x: 0.97, y: 0.66, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1052652358}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1978297184
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1978297182}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9c15d1d50943bba4a9f9fd7c938f8474, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player_damaged: {fileID: 1213367236}
+--- !u!58 &1978297185
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1978297182}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
+  m_Radius: 0.3
 --- !u!1001 &1985666493
 Prefab:
   m_ObjectHideFlags: 0

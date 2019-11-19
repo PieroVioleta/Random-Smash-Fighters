@@ -27,6 +27,8 @@ public class PlayerController : MonoBehaviour {
     public Text life;
     public int lifeP;
     public int bullet_counter = 20;
+    public GameObject sword;
+    public bool sword_flag = true;
     void Start() {
         rb2d = GetComponent<Rigidbody2D>();
         anim = GetComponent<Animator>();
@@ -34,10 +36,11 @@ public class PlayerController : MonoBehaviour {
         HealthPowerText.text = "Health Power: 2";
         BulletCounterText.text = "Bullets Available: 10";
         life.text = "Health: " + lifeP.ToString() + "%";
+        sword.SetActive(false);
     }
 
     // Update is called once per frame
-    void Update() { 
+    void Update() {
         ins_bullet.transform.localScale = transform.localScale;
         anim.SetFloat("Speed_X_abs", Mathf.Abs(rb2d.velocity.x));
         anim.SetFloat("Speed_Y", rb2d.velocity.y);
@@ -51,7 +54,7 @@ public class PlayerController : MonoBehaviour {
             jump = true;
         }
         sAttack = false;
-        if (Input.GetButtonDown("PS4_L2")) {
+        if (Input.GetButtonDown("PS4_L2") && grounded) {
             sAttack = true;
         }
         lAttack = false;
@@ -60,13 +63,20 @@ public class PlayerController : MonoBehaviour {
             bullet_available = false;
         }
         health = false;
-        if(Input.GetButtonDown("PS4_triangle") && countPower1 > 0) {
+        if(Input.GetButtonDown("PS4_triangle") && countPower1 > 0 && grounded) {
             health = true;
             countPower1--;
             if(countPower1 > 0) HealthPowerText.text = "Health Power: " + (countPower1 - 1).ToString();
+            lifeP += 50;
         }
         if (bullet_counter >= 0 && bullet_counter%2 == 0) BulletCounterText.text = "Bullets Available: " + (bullet_counter/2).ToString();
         life.text = "Health: " + lifeP.ToString() + "%";
+
+        if (sAttack && sword_flag) {
+            sword.SetActive(true);
+            sword_flag = false;
+            Invoke("Desactive_Sword", 1f);
+        }
     }
     
     void FixedUpdate() {
@@ -103,5 +113,9 @@ public class PlayerController : MonoBehaviour {
             rb_ins_bullet.AddForce(Vector2.right * bulletSpeed * direction, ForceMode2D.Impulse);
             lAttack = false;
         }
+    }
+    void Desactive_Sword() {
+        sword.SetActive(false);
+        sword_flag = true;
     }
 }
